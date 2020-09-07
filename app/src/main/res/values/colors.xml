@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="whiteTextColor">#FFF</color>
+    <color name="greyTextColor">#636972</color>
+    <color name="main">#FFF2E1</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorStart">#8BC2A1</color>
+    <color name="colorGrammar">#DA9CB5</color>
+    <color name="colorVerb">#C89385</color>
+    <color name="colorLesson">#008D83</color>
+</resources>

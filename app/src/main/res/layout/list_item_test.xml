@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<ProgressBar
+    android:id="@+id/TestProgress"
+    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+    android:layout_marginTop="20sp"
+    android:layout_marginVertical="10sp"
+    android:layout_gravity="center"
+    android:layout_width="300sp"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5sp"
+    android:max="100"
+    android:progressTint="@android:color/holo_green_dark"/>
+    <TextView
+        android:id="@+id/task_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="30sp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/question_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="40sp"
+        android:layout_marginLeft="10sp"
+        android:textColor="@color/colorLesson"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/answer1"
+        android:layout_width="330sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20sp"
+        android:background="@drawable/rectgramm"
+        android:textColor="@color/whiteTextColor"/>
+
+    <Button
+        android:id="@+id/answer2"
+        android:layout_width="330sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20sp"
+        android:background="@drawable/rectgramm"
+        android:textColor="@color/whiteTextColor"/>
+
+    <Button
+        android:id="@+id/answer3"
+        android:layout_width="330sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20sp"
+        android:background="@drawable/rectgramm"
+        android:textColor="@color/whiteTextColor"/>
+</LinearLayout>

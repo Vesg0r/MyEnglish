@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="350sp"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="25sp">
+
+    <FrameLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_marginBottom="20sp">
+
+    <View
+        android:id="@+id/main_view_grammar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/main_text_grammar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/whiteTextColor"
+        android:layout_marginHorizontal="15sp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom|right"
+            android:orientation="horizontal"
+            android:layout_marginEnd="10sp">
+    <ImageView
+        android:id="@+id/star_image1"
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:layout_marginBottom="5sp"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+    <ImageView
+        android:id="@+id/star_image2"
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:layout_marginBottom="5sp"
+        app:srcCompat="@android:drawable/btn_star_big_off" />
+    <ImageView
+        android:id="@+id/star_image3"
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:layout_marginBottom="5sp"
+        app:srcCompat="@android:drawable/btn_star_big_off" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

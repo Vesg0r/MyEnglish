@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/main_text_theory"
+        android:layout_gravity="center"
+        android:layout_width="350sp"
+        android:layout_height="match_parent"
+        android:textColor="@color/cardview_dark_background"
+        android:textStyle="italic"
+        android:textSize="25sp">
+    </TextView>
+
+    <Button
+        android:id="@+id/start_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:text=" Розпочати тест "
+        android:background="@drawable/rectstart"
+        android:layout_marginBottom="10sp">
+
+    </Button>
+</LinearLayout>
